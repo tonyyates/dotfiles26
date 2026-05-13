@@ -4,8 +4,8 @@
 # =============================================================================
 
 # ── Taps ─────────────────────────────────────────────────────────────────────
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
+#tap "homebrew/bundle"
+#tap "homebrew/cask-fonts"
 tap "jurplel/tap"
 tap "nicoverbruggen/homebrew-cask"
 
@@ -118,7 +118,8 @@ cask "superwhisper"    # AI transcription
 cask "arc"
 cask "firefox"
 cask "google-chrome"
-cask "brave"
+cask "brave-browser"
+
 
 # Communication
 cask "microsoft-teams"
@@ -136,7 +137,7 @@ cask "spotify"
 cask "vlc"             # media player
 
 # System
-cask "aerospace"       # tiling window manager (replaces yabai/skhd)
+#cask "aerospace"       # tiling window manager (replaces yabai/skhd)
 cask "jurplel/tap/instant-space-switcher"  # macOS space switcher
 cask "karabiner-elements"  # keyboard remapping
 cask "the-unarchiver"  # archive extraction
