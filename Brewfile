@@ -104,7 +104,6 @@ cask "visual-studio-code"
 # Productivity
 cask "1password"
 cask "alfred"
-cask "bartender"       # menu bar manager
 cask "bitwarden"       # password manager
 cask "caffeine"        # prevent sleep
 cask "claude"          # Claude desktop app
