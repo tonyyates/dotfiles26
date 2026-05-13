@@ -5,7 +5,7 @@
 ## Quick start
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/YOU/dotfiles/main/bootstrap.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/tonyyates/dotfiles26/master/bootstrap.sh)"
 ```
 
 That's it. Everything else is automatic.

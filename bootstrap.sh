@@ -55,7 +55,7 @@ fi
 # ── 4. Homebrew Bundle ────────────────────────────────────────────────────────
 section "Homebrew Bundle"
 info "Installing all packages from Brewfile..."
-brew bundle --file="$DOTFILES_DIR/Brewfile" --no-lock
+brew bundle --file="$DOTFILES_DIR/Brewfile"
 
 # ── 5. Stow symlinks ─────────────────────────────────────────────────────────
 section "Symlinking config files"
