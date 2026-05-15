@@ -77,8 +77,8 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 # ── Safari / WebKit ───────────────────────────────────────────────────────────
 # Enable developer tools
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+# defaults write com.apple.Safari IncludeDevelopMenu -bool true
+# defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 
 # ── Activity Monitor ─────────────────────────────────────────────────────────
 # Show all processes
