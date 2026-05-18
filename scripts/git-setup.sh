@@ -23,7 +23,7 @@ if [ ! -f "$HOME/.ssh/id_ed25519" ]; then
   echo "  No SSH key found. Generating one..."
   ssh-keygen -t ed25519 -C "$(git config --global user.email)" -f "$HOME/.ssh/id_ed25519" -N ""
   eval "$(ssh-agent -s)"
-  ssh-add --apple-use-keychain "$HOME/.ssh/id_ed25519"
+  /usr/bin/ssh-add --apple-use-keychain "$HOME/.ssh/id_ed25519"
   echo ""
   echo "  ✓ SSH key generated. Add this to GitHub:"
   echo "  ────────────────────────────────────────"
